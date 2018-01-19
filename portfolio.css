@@ -1,0 +1,54 @@
+body {
+  background-color: #e6e6e6;
+  color: #002699;
+}
+
+h1, h2 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-style: double;
+}
+
+p {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
+
+nav .active {
+    background-color: #e60000;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
